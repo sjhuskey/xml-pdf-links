@@ -36,7 +36,7 @@
         <xsl:text>&#10;</xsl:text>
     </xsl:template>
 
-<!-- Use \ref to link to different parts of the document. --> 
+<!-- Use \hyperref to link to different parts of the document. --> 
     <xsl:template match="tei:ref">
         <xsl:text>\hyperref[</xsl:text>
         <xsl:value-of select="@target"/>
